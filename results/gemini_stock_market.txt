@@ -1,0 +1,46 @@
+Model: Gemini
+Task: Stock-market policy-impact forecast
+Date: August 7, 2026
+
+Prompt:
+You are assisting with an academic financial-analysis exercise, not providing investment advice.
+
+Use only this historical dataset:
+
+Year | Market index | Commodity index
+2019 | 2700 | 100
+2020 | 2300 | 92
+2021 | 3100 | 118
+2022 | 2900 | 135
+2023 | 3400 | 127
+
+Forecast the potential impact of economic-policy conditions on the stock market over the next year. Since no specific policy details are supplied, clearly state that limitation and use conditional scenarios.
+
+Provide:
+1. A base-case direction and estimated range for the market index
+2. Bull and bear scenarios
+3. Assumptions and uncertainty
+4. Major risks
+5. A statement that this is not investment advice
+
+Response:
+
+Due to the absence of specific economic-policy details in the provided dataset, any forward-looking projection relies on conditional scenarios mapped against historical relationships between the Market index and the Commodity index.
+
+1. Base-Case Direction and Estimated Range
+Between 2019 and 2023, the Market index expanded from 2700 to 3400, showing long-term growth despite a decline in 2020 (2300) and a correction in 2022 (2900). The market recovery in 2023 to 3400 coincided with a decline in the Commodity index from 135 down to 127, indicating that easing input costs created a favorable environment for equities. Assuming neutral economic policy and stable commodity prices, the base-case direction for the market index over the next year is moderately upward, with an estimated range of 3,550 to 3,800 index points.
+2. Bull and Bear Scenarios
+
+* Bull Scenario: Accommodative monetary policy or supportive fiscal incentives, paired with flat or declining commodity costs (Commodity index dropping below 120). Lower input costs and increased market liquidity could drive the Market index toward a range of 3,800 to 4,100.
+* Bear Scenario: Restrictive economic policy (such as aggressive rate hikes) combined with renewed supply-side disruptions that push the Commodity index back toward or above its 2022 peak of 135. Higher production costs and tighter credit conditions could pull the Market index down to a range of 2,700 to 3,100.
+
+3. Assumptions and Uncertainty
+
+* Assumptions: Equity valuations continue to react to commodity price trends as observed between 2021 and 2023, where elevated commodity costs pressured equity performance and stabilizing commodity costs allowed room for expansion.
+* Uncertainty: High, because crucial macroeconomic variables—such as interest rate targets, tax policy changes, government spending levels, and regulatory shifts—are completely omitted from the historical data.
+
+4. Major Risks
+
+* Policy overtightening that restricts liquidity, slows corporate expansion, and depresses consumer spending.
+* Sudden commodity market spikes that increase input costs and reduce corporate profitability.
+* External macroeconomic shocks that derail market momentum regardless of baseline policy settings.

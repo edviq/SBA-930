@@ -1,0 +1,54 @@
+Model: Gemini
+Task: Commodity-price forecast
+Date: August 7, 2026
+
+Prompt:
+
+You are assisting with an academic financial-analysis exercise, not providing investment advice.
+
+Use only this historical dataset:
+
+Year | Market index | Commodity index
+2019 | 2700 | 100
+2020 | 2300 | 92
+2021 | 3100 | 118
+2022 | 2900 | 135
+2023 | 3400 | 127
+
+Analyze the historical data to predict the next-year trend in commodity prices, represented by the commodity index.
+
+Provide:
+1. An estimated next-year commodity-index range
+2. The reasoning based only on the data supplied
+3. Bull and bear scenarios
+4. Key limitations and uncertainty
+5. A statement that this is not investment advice
+
+
+Response:
+
+1. Estimated Next-Year Commodity-Index Range
+Based on recent trends in the dataset, the estimated range for the commodity index next year is 120 to 132.
+2. Reasoning Based Only on Supplied Data
+Across the five-year dataset, the commodity index moved between a low of 92 (2020) and a peak of 135 (2022).
+
+In 2019 and 2020, the commodity index and market index moved in the same direction, both dropping in 2020 and surging in 2021. However, in 2022 and 2023, an inverse relationship appeared:
+
+* In 2022, commodities peaked at 135 while the market index dropped to 2900.
+* In 2023, commodities dropped to 127 while the market index rebounded to a high of 3400.
+
+Because the most recent data point shows commodities cooling down from their 2022 peak while the stock market reaches new highs, the data supports a continued stabilization or mild decline toward the 120 to 132 range.
+
+3. Bull and Bear Scenarios
+
+* Bull Scenario (Higher Commodity Index): If commodities resume the strong upward expansion seen in 2021, the index could break past its previous peak and reach a range of 135 to 145.
+* Bear Scenario (Lower Commodity Index): If commodities continue falling from their 2022 peak or experience a broader pull-back similar to 2020, the index could drop to a range of 105 to 118.
+
+4. Key Limitations and Uncertainty
+
+* Extremely Small Sample Size: Five yearly data points are not enough to reliably predict future market movements or build statistical models.
+* Unexplained Relationship Shifts: The correlation between the market index and commodity index flipped from positive (2019-2021) to negative (2022-2023), making it impossible to know which pattern will hold.
+* Missing Macroeconomic Context: The dataset lacks critical real-world drivers such as inflation rates, interest rates, supply chain conditions, energy prices, and geopolitical events.
+
+5. Academic Disclaimer
+This analysis is strictly an academic financial exercise based on historical data patterns and does not constitute financial, legal, or investment advice.

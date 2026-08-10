@@ -1,0 +1,76 @@
+Model: Gemini
+Task: GDP growth and inflation forecast backtest
+Forecast target: 2023
+Actual values withheld from model
+Date: August 7, 2026
+
+Prompt:
+
+You are assisting with an academic economic-forecasting exercise, not providing investment advice.
+
+Use only the historical data through 2022 below. Do not use outside data or assume you know the actual 2023 outcome.
+
+Year | GDP growth (%) | Inflation (%)
+2019 | 2.3 | 1.8
+2020 | -3.4 | 1.2
+2021 | 5.9 | 4.7
+2022 | 1.9 | 8.0
+
+Forecast the values for 2023.
+
+Provide:
+1. One point forecast and one plausible range for 2023 GDP growth
+2. One point forecast and one plausible range for 2023 inflation
+3. A base case, upside case, and downside case
+4. Assumptions, limitations, and uncertainty
+5. A statement that this is for an academic exercise and not investment advice
+
+
+
+Response:
+
+1. Point Forecasts and Plausible Ranges
+
+GDP Growth (2023):
+
+* Point Forecast: 1.2%
+* Plausible Range: 0.5% to 2.2%
+
+Inflation (2023):
+
+* Point Forecast: 5.5%
+* Plausible Range: 4.0% to 7.0%
+
+2. Scenarios
+
+Base Case:
+
+* GDP growth slows to 1.2% as lagging impacts from high inflation in 2022 (8.0%) temper expansion back toward sustainable historical averages.
+* Inflation cools from its peak to 5.5%, remaining elevated compared to 2019–2020 levels due to ongoing cost pressures.
+
+Upside Case:
+
+* GDP growth rebounds to 2.2% while inflation drops to 4.0%. Supply constraints ease, allowing economic growth to remain resilient while price growth decelerates more rapidly.
+
+Downside Case:
+
+* GDP growth decelerates to 0.5% while inflation remains stubborn at 7.0%. Persistent price increases erode purchasing power, causing a broader slowdown in overall economic output.
+
+3. Assumptions, Limitations, and Uncertainty
+
+Assumptions:
+
+* The sharp contraction in 2020 (-3.4%) and rapid rebound in 2021 (5.9%) represent abnormal volatility, with 2022 (1.9% GDP growth, 8.0% inflation) marking a transition into an inflationary environment.
+
+Limitations:
+
+* Extremely Small Dataset: Four annual data points are statistically insufficient to construct reliable forecasting models.
+* Omitted Macroeconomic Variables: Crucial drivers such as interest rates, fiscal policy, labor force participation, and money supply are completely absent from the dataset.
+
+Uncertainty:
+
+* High. Trend extrapolation cannot account for sudden policy shifts or non-linear structural adjustments in price levels and growth rates.
+
+4. Academic Disclaimer
+
+This analysis is strictly an academic economic-forecasting exercise using the provided 2019–2022 dataset and does not constitute financial or investment advice.

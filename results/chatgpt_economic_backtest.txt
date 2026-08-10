@@ -1,0 +1,103 @@
+Model: ChatGPT
+Task: GDP growth and inflation forecast backtest
+Forecast target: 2023
+Actual values withheld from model
+Date: August 7, 2026
+
+Prompt:
+
+You are assisting with an academic economic-forecasting exercise, not providing investment advice.
+
+Use only the historical data through 2022 below. Do not use outside data or assume you know the actual 2023 outcome.
+
+Year | GDP growth (%) | Inflation (%)
+2019 | 2.3 | 1.8
+2020 | -3.4 | 1.2
+2021 | 5.9 | 4.7
+2022 | 1.9 | 8.0
+
+Forecast the values for 2023.
+
+Provide:
+
+1. One point forecast and one plausible range for 2023 GDP growth
+2. One point forecast and one plausible range for 2023 inflation
+3. A base case, upside case, and downside case
+4. Assumptions, limitations, and uncertainty
+5. A statement that this is for an academic exercise and not investment advice
+
+
+
+Response:
+
+## 1. 2023 GDP Growth Forecast
+
+**Point forecast:** **2.5%**
+**Plausible range:** **1.0% – 3.5%**
+
+---
+
+## 2. 2023 Inflation Forecast
+
+**Point forecast:** **5.5%**
+**Plausible range:** **3.5% – 7.0%**
+
+---
+
+## 3. Scenario Analysis
+
+### Base Case
+
+* **GDP:** ~2.5%
+* **Inflation:** ~5.5%
+  **Reasoning:**
+* Growth slowed sharply from **5.9% (2021) → 1.9% (2022)**, suggesting stabilization rather than continued decline
+* Inflation surged to **8.0% in 2022**, making a partial moderation likely based on mean reversion within this dataset
+
+---
+
+### Upside Case
+
+* **GDP:** **3.0% – 3.5%**
+* **Inflation:** **3.5% – 5.0%**
+  **Conditions (based on past patterns):**
+* Recovery similar to **2020 → 2021 rebound (-3.4% → 5.9%)**
+* Inflation declines significantly after a spike
+
+---
+
+### Downside Case
+
+* **GDP:** **1.0% – 1.5%**
+* **Inflation:** **6.5% – 7.0%**
+  **Conditions:**
+* Continued slowdown following the drop from **2021 → 2022**
+* Inflation remains elevated after reaching a peak
+
+---
+
+## 4. Assumptions, Limitations, and Uncertainty
+
+**Assumptions:**
+
+* GDP growth tends to **mean-revert** after extreme swings (e.g., 2020–2021)
+* Inflation spikes (like 8.0% in 2022) are followed by **partial normalization**
+* No structural break in economic relationships
+
+**Limitations:**
+
+* Only **4 data points**, which severely limits trend reliability
+* No policy, labor market, or external shock data included
+* Cannot establish causation, only simple pattern observation
+
+**Uncertainty:**
+
+* High volatility between 2020–2022 suggests unstable patterns
+* Future outcomes may deviate significantly due to unseen factors
+* The dataset does not show enough cycles to confirm repeatable behavior
+
+---
+
+## 5. Disclaimer
+
+This forecast is based solely on the limited historical dataset provided and is intended for an academic exercise. It **does not constitute investment advice**.
